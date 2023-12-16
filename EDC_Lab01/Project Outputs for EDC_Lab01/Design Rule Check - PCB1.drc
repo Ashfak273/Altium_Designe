@@ -1,0 +1,99 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\mzaah\Desktop\My Files\UNI Doc\Projects\Altium\EDC_Lab01\PCB1.PcbDoc
+Date     : 12/15/2023
+Time     : 10:57:56 PM
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(All)
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Pad R1-1(15mm,12mm) on Top Layer And Pad R1-2(15mm,11.05mm) on Top Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Pad R2-1(24mm,12mm) on Top Layer And Pad R2-2(24mm,11.05mm) on Top Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Pad R3-1(9mm,12mm) on Top Layer And Pad R3-2(9mm,11.05mm) on Top Layer 
+   Violation between Clearance Constraint: (0.2mm < 0.25mm) Between Pad R4-1(19mm,12mm) on Top Layer And Pad R4-2(19mm,11.05mm) on Top Layer 
+Rule Violations :4
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.711mm) (MaxHoleWidth=0.711mm) (PreferredHoleWidth=0.711mm) (MinWidth=1.27mm) (MaxWidth=1.27mm) (PreferedWidth=1.27mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Fabrication Testpoint Style (Under Component=Yes) (All)
+Rule Violations :0
+
+Processing Rule : Fabrication Testpoint Usage (Valid =One Required, Allow multiple per net=No) (All)
+   Violation between Fabrication Testpoint Usage: Net NetC1_1 - Missing required testpoint
+   Violation between Fabrication Testpoint Usage: Net NetC1_2 - Missing required testpoint
+   Violation between Fabrication Testpoint Usage: Net NetC2_1 - Missing required testpoint
+   Violation between Fabrication Testpoint Usage: Net NetC2_2 - Missing required testpoint
+   Violation between Fabrication Testpoint Usage: Net NetP1_1 - Missing required testpoint
+   Violation between Fabrication Testpoint Usage: Net NetP1_2 - Missing required testpoint
+Rule Violations :6
+
+Processing Rule : Assembly Testpoint Style (Under Component=Yes) (All)
+Rule Violations :0
+
+Processing Rule : Assembly Testpoint Usage (Valid =One Required, Allow multiple per net=No) (All)
+   Violation between Assembly Testpoint Usage: Net NetC1_1 - Missing required testpoint
+   Violation between Assembly Testpoint Usage: Net NetC1_2 - Missing required testpoint
+   Violation between Assembly Testpoint Usage: Net NetC2_1 - Missing required testpoint
+   Violation between Assembly Testpoint Usage: Net NetC2_2 - Missing required testpoint
+   Violation between Assembly Testpoint Usage: Net NetP1_1 - Missing required testpoint
+   Violation between Assembly Testpoint Usage: Net NetP1_2 - Missing required testpoint
+Rule Violations :6
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.22mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.175mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.145mm < 0.175mm) Between Pad C1-1(17mm,24mm) on Top Layer And Track (15.8mm,23.45mm)(16.4mm,23.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.145mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.145mm < 0.175mm) Between Pad C1-1(17mm,24mm) on Top Layer And Track (15.8mm,24.55mm)(16.4mm,24.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.145mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.135mm < 0.175mm) Between Pad C1-2(15.21mm,24mm) on Top Layer And Track (15.8mm,23.45mm)(16.4mm,23.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.135mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.135mm < 0.175mm) Between Pad C1-2(15.21mm,24mm) on Top Layer And Track (15.8mm,24.55mm)(16.4mm,24.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.135mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.145mm < 0.175mm) Between Pad C2-1(16.79mm,18mm) on Top Layer And Track (15.59mm,17.45mm)(16.19mm,17.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.145mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.145mm < 0.175mm) Between Pad C2-1(16.79mm,18mm) on Top Layer And Track (15.59mm,18.55mm)(16.19mm,18.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.145mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.135mm < 0.175mm) Between Pad C2-2(15mm,18mm) on Top Layer And Track (15.59mm,17.45mm)(16.19mm,17.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.135mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.135mm < 0.175mm) Between Pad C2-2(15mm,18mm) on Top Layer And Track (15.59mm,18.55mm)(16.19mm,18.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.135mm]
+Rule Violations :8
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 24
+Waived Violations : 0
+Time Elapsed        : 00:00:01
